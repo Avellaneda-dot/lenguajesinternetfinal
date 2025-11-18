@@ -1,2 +1,28 @@
-# lenguajesinternetfinal
-github pages
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="login-container">
+
+    <h2>INICIAR SECION</h2>
+
+    <form id="loginForm">
+      <!-- aqui lo que se hace es cambiar de type="email" a type="text" -->
+
+      <input type="text" id="email" placeholder="Usuario" required />
+      <input type="password" id="password" placeholder="Contraseña" required />
+      <button type="submit">Ingresar</button>
+    </form>
+    
+    <p id="loginMessage"></p>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
